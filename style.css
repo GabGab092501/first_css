@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: sans-serif;
+}
+
+.flexbox-container{
+    display:flex;
+}
+
+.flexbox-item{
+    width: 200px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: -100px;
+    border: 1px solid hsl(215, 32%, 27%);
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 15px 1px 5px rgba(15, 15, 15, 0.175), 3px 15px 3px 25px rgba(0, 0, 0, 0.055);
+}
+
+.image{
+    border-radius: 5px;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.text{
+    font-size: 12px;
+    color: #69829e;
+}
+
+.eth{
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+
+.hr{
+    border:none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.068);
+}
+
+.a{
+    top: 86%;
+    left: 23%;
+    position: absolute;
+    color: #69829e;
+}
+
+.img2{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.b{
+    top: 86%;
+    left: 50%;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.750);
+}
+
+.b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
