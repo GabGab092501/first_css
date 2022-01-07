@@ -45,6 +45,14 @@ body{
 }
 
 .eth{
+    position: inherit;
+    font-size: 12px;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock{
+    position: relative;
+    left: 60%;
     font-size: 12px;
     color: hsl(178, 100%, 50%);
 }
@@ -56,19 +64,20 @@ body{
 }
 
 .a{
-    top: 86%;
+    top: 84%;
     left: 23%;
     position: absolute;
     color: #69829e;
 }
 
 .img2{
+    position: sticky;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 
 .b{
-    top: 86%;
+    top: 84%;
     left: 50%;
     position: absolute;
     color: rgba(255, 255, 255, 0.750);
